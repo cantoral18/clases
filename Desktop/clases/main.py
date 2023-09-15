@@ -113,3 +113,16 @@ else:
     print("si es falso imprime esto")  
 
 ##ciclos
+## existen dos tipos
+###  cuando sabes la cantidad de  veces que vamos a repetir
+# para este caso existe el for
+#sintaxis despues de la palabra reservada for  debemos crear una variable que 
+# almacene el numero que iremos iterando.
+#luego tendremos que indicar  el rango a iterar alos elementos a iterar
+vocales=("a","e","i","o","u")
+for i in vocales:
+    print(i)
+
+
+
+### cuando no sabemos la cantidad de veces a repetir
