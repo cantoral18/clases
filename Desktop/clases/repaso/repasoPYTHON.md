@@ -130,6 +130,20 @@ vocales=("a","e","i","o","u")
 for i in vocales:
     print(i)
 
+``````
 
+# cuando no sabemos la cantidad de veces a repetir
 
-### cuando no sabemos la cantidad de veces a repeti
+while  tambien evalua si la condision es verdadera
+```python
+
+while true:
+    print(hola) 
+
+condicion= true 
+while condicion:
+    print("hola")
+    texto=input ( "ingresa tu nombre o salir para terminar el programa:")
+    if texto =="salir":
+        condicion=false
+ ```
