@@ -124,5 +124,15 @@ for i in vocales:
     print(i)
 
 
-
 ### cuando no sabemos la cantidad de veces a repetir
+while  tambien evalua si la condision es verdadera
+while true:
+    print(hola) 
+    
+condicion= true 
+while condicion:
+    print("hola")
+    texto=input ( "ingresa tu nombre o salir para terminar el programa:")
+    if texto =="salir":
+        condicion=false
+        

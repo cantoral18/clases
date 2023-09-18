@@ -147,3 +147,18 @@ while condicion:
     if texto =="salir":
         condicion=false
  ```
+ # funciones 
+##existen 2  tipos  
+### 1. PROPIAS DE LENGUAJE         :
+### ya vienen creadas e insertadas en python y estas listas para ser usadas
+## estructura de una funcion
+## tiene el nombre seguido de una parentisis
+### dentro de un parentesis podremos pasarles datos que necesita la funcion para ejecutarse
+```python
+**esta es una funcion para mostrar por consola datos**
+print()
+## esta funcion nos permite saber la longitud de una lista o unstring 
+**len nos devuelve un numero**
+print(len)
+````
+### 2. funciones creadas
