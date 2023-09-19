@@ -136,3 +136,99 @@ while condicion:
     if texto =="salir":
         condicion=false
         
+        
+ # ##  esta funcion nos muestra el numero mayor de una lista
+# #lista=[45,23,22,3,21]
+# numero_mayor=max(lista)
+# print(numero_mayor)
+
+# ## esta funcion nos muestra el numero menor de una lista 
+# lista=[45,23,22,3,21]
+# numero_menor=min(lista)
+# print(numero_menor)
+
+# funciones para convertir de un string a numero entero int("100")#->>100->> entero
+
+# funcion para convertir un entero a un strimg
+# str(100) #->> "100"->>string   
+
+# funcion de python que nos permite agregar elementos al final de una lista 
+# lista=[15,12,78]
+# elemento=100
+# lista.append(elemento)
+# print(lista) 
+   
+# # funcion que nos permite eliminar los elementos que se encuentran al final de una lista
+# lista=[15,12,78]
+# lista.pop()
+# print(lista)
+# print (eliminado)
+
+# #funcion de python que nos permite agregar elementos en cualquier  posicion de mi 
+# lista para eso se le tiene que pasar dos parametros
+# ,primero indicar el indice y segundo el datoque se va agregar   
+
+# lista_monbres=["jory","luis","pepe"]
+# lista_monbres.inst(1,"carlos")
+# print(lista_monbres)
+
+# funcion de python que nos permite eliminar elementos de cualquier
+# posicion de una lista ,esta funcion recibe solo el elemento que deseamos eliminar
+
+lista=[4,3,5,6,8]
+lista.remove(6)
+print (lista)
+
+#funcion que nos permite dividir en un acadena
+cadena="hola como estan"
+lista=cadena.split()
+print(lista)
+url="www.golle.com/id=70133573"
+id=url.splip("=").pop()
+print(id)
+
+# ### 2. FUNCIONES CREADAS
+# FUNCIONES PROPIAS
+# PASOS PARA CREAR UNA FUNCION PROPIA
+# 1. hacer uso de la palabra reservada
+# 2. defenir un nombre de funcion que describa que tarea va a realizar
+# 3. establecer los parametros que resivira la funcion entre parentisis()
+# 4. establecer que valor o dato va retornar mi funcion con la palabra reservada return
+# >observacion =>> tambien podemos hacer uso de la funcion print (para retornar un mensaje en nuestra funcion)
+# retornar un mensaje en nuestra function
+# existen 2 tipos de funciones los que resiven ningun parametro
+# y los que resven prarmetro
+# def saludo()
+#     print("hola este es un saludo")
+
+# como hacemos uso de la function
+# nombre de la funciones y parentesis
+
+# funcion con parametros
+def mi_print(texto)
+    print(texto)
+    
+
+ 
+#  print("hola este es print de python")
+#  mi_print("hola este es mi print creado")
+def suma(a,b)
+ total=a+b
+ return total
+ mi_print(suma(45,12)) ##==>>>>> 57
+ 
+#########################################
+ #ejemplo 
+#  para que se usa esta funcion 
+#  para mostrar` el valor maximo de una lista
+ 
+ lista=[12,4,43,56,78]
+ mi_print(max(lista)) #===>>>78
+ 
+def mi_max(lista):
+    numero_mayor=lista[0]
+    for numero in lista:
+        if numero> numero_mayor:
+    return numero_mayor
+mi_print(mi_max(lista))
+    
