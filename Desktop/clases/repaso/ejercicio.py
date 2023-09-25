@@ -68,31 +68,51 @@
 # mi_print(divi(14,1))
 
 #ejercio 6
-#escriba una funcion que reciba un numero entero y devuelva su factorial
+# #escriba una funcion que reciba un numero entero y devuelva su factorial
 
-def factorial(n):
-    if n ==0:
-        return 1
-    else:
-        resultado = 1
-        for i in range (1,n+1):
-            resultado= resultado
+# def factorial(n):
+#     if n ==0:
+#         return 1
+#     else:
+#         resultado = 1
+#         for i in range (1,n+1):
+#             resultado= resultado
             
-numero=10
-resultado=factorial(numero)
-print(f"el factorial de {numero} es {resultado}")
+# numero=10
+# resultado=factorial(numero)
+# print(f"el factorial de {numero} es {resultado}")
 
 #ejercicio 7
 # escribir una funcion que resiva como parametro una lista de numeros y 
 # retorne una nueva lista con el cuadrado de cada numeron de lista egresados
+# numero = [12]
+# def calcular_cuadrados(lista):
+#     cuadrados = []
+#     for numero in lista:
+#         cuadrado=numero **2
+#         cuadrados.append(cuadrado)
+#         return cuadrados 
 
-lista=(2,8,6)
-def 
-
+# cuadrados =calcular_cuadrados(numero)
+# print(f"lista de numeros: {numero}")
+# print(f"lista de numeros: {cuadrados}")
 
 #ejercicio 8
 ## escribir un programa que reciba una cadaena de caracteres y desvela un
 # objeto con cada palabra que tiene  y su frecuencia
 
-
+# def contar_frecuencia_palabra (cadena):
+#     frecuencia_palabras ={}
+#     palabras = cadena.split()
     
+#     for palabra in palabras:
+#         if palabra in frecuencia_palabras:
+#              frecuencia_palabras[palabras ]+=1
+#         else:
+#             frecuencia_palabras[palabras]=1
+
+#     return frecuencia_palabras
+        
+# cadena ="buenos dias"
+# resultado =contar_frecuencia_palabra(cadena)
+# print (resultado)
