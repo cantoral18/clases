@@ -1,30 +1,22 @@
 # jercicio 2
 
 from tkinter import *
-ventana=Tk()
+## instanciar la clase TK()
+ventana=()
+ventana.geometry("500x600")
 
+## creamos los widgets
 widget_uno=Frame()
-widget_uno.grid(row="0",column="0",rowspan="1")
-widget_uno.config(width="100",height="200")
-widget_uno.config(bg="pink")
+widget_uno.grid(row="0",column="0")
+widget_uno.config(width="500",height="600")
+widget_uno.config(bg="")
 
-widget_dos=Frame()
-widget_dos.grid(row="0",column="1",rowspan=1,columnspan=1)
-widget_dos.config(width="100",height="100")
-widget_dos.config(bg="black")
+## creacion de etiquetas 
+etiqueta=Label(ventana,text="ingrese su nombre")
+etiqueta.grid(row=0,column=0)
 
-widget_tres=Frame()
-widget_tres.grid(row="1",column="1")
-widget_tres.config(width="100",height="100")
-widget_tres.config(bg="yellow")
-
-widget_cuatro=Frame()
-widget_cuatro.grid(row="2",column="0",rowspan=1,columnspan=2)
-widget_cuatro.config(width="200",height="100")
-widget_cuatro.config(bg="violet")
-
-
-
-
+## creacion de cuadro de texto 
+cuadro_texto=Entry()
+cuadro_texto.grit(row=0,column=0)
 
 ventana.mainloop()
