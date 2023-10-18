@@ -1,4 +1,4 @@
-# programacion orientado a objetos(POO)
+<!-- # programacion orientado a objetos(POO)
 ### EN INGLES ES OBJECT ORIENT PROGRAMING (OOP)
 es un paradigma de programacion
 **PARADIGMA** - ES UN MODELO, PATRON O EJEMPLO QUE SE DEBE SEGUIR
@@ -51,5 +51,35 @@ class celular:
     lamandoNadine=celular("alcatel","basico","3698521,"996587424")
     print(llamandoNadine.marca)
     print(llamandoNadine.familia)
-    print(llamandoNadine.llamra("ollanta"))
+    print(llamandoNadine.llamra("ollanta")) -->
     ```
+
+
+    tarea
+     crear una lista con 10 objetos que contengan los datos de las tiendas comerciales
+     > ejemplo:
+     ```python
+    tiendas=[
+        {
+            "ruc":96325841
+            "nombre":"carlos",
+            "categoria":["abarrotes","bodega"],
+            "horario_atencion":{
+                "dia":7am-12m,
+                "tarde":2pm-8pm
+            }
+            "gerente":"manuel"
+
+        }
+     ]
+     ```
+
+     ## observacion : las categorias sera:4 abarrotes, farmacia,bodega,restaurante
+     ##observacion: los gerente solo podran ser los siguientes :
+     ale,luis,mary,jhosi
+
+     ##realizae los siguientes ejercicios
+     ##crear una clase para tiendas que tenga los siguientes metodos o caso de uso
+     1. crear un metodo que me filtre las tiendas que tienen cada gerente
+     2. crear un metodo que me muestre los negocios que tiene  mas de dos categorias
+     3. crear un metodo que me muestre solo el nombre y ruc de los tiendas
