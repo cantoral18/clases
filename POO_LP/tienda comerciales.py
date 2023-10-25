@@ -123,44 +123,42 @@ class Tienda:
     def eliminar_negocio(self):
         respuesta=list(filter(lambda el : el["ruc"]!=ruc,bd_tiendas))
         return respuesta
-
-
-
-    def actualizar_negocio(self,bd,negocio,ruc,clave,valor):
-        
-            
-    
-
     def  mostrar_todo(self):
         return tiendas
+#TAREA
+        
+    def actualizar_negocio(self,bd,cnegocio,ruc,valor):
+        ol=valor
+        producto_actualizar=list(filter(lambda obj:obj["clave"]==tiendas))[0].update({clave:valor})
+        return "se actualizo"   
+        
+           
+
     
+    def agregar_producto(self, nuevo_producto):
+        self.productos.append(nuevo_producto)
+        
+        
+    def nuevo_horario(self,nuevo_horario): 
+        self.productos.apped(nuevo_horario)  
+    nuevo_horario = {"dia": "8am-1pm", "tarde": "3pm-9pm"}
+    tiendas.actualizar_horario_atencion(nuevo_horario)
 
-
-
-
-
+    
+    
 tiendas_objetos = Tienda()
-print(tiendas_objetos.filtrar_por_gerente(tiendas,"Nadine"))
-print(tiendas_objetos.negocios_con_mas_de_dos_categorias("abarrotes"))
-print(tiendas_objetos.mostrar_nombre_y_ruc(tiendas))
-print(tiendas_objetos.actualizar_horario_atencion(tiendas))
-print(tiendas_objetos.actualizar_horario(tiendas, "2345678901", nuevo_horario))
+print(tiendas_objetos.actualizar_negocio(tiendas))
+print(tiendas_objetos.actualizar_horario_atencion(tiendas),"nuevo_horario")
+print(tiendas_objetos.agregar_producto(tiendas, ))
+
+
 ## tarea 
 def actualizar_negocio(self,bd,negocio,ruc,clave,valor):
             pass
 ## otro metodo para crear un nuevo producto
-
-def agregar_producto(self, nuevo_producto):
-    self.productos.append(nuevo_producto)
-    
+   
     
 ## otro metodo para actualizar el horario de atencion 
 
-
-def actualizar_horario_atencion(self, nuevo_horario):
-    self.horario_atencion = nuevo_horario
-     
-nuevo_horario = {"dia": "8am-1pm", "tarde": "3pm-9pm"}
-tiendas.actualizar_horario_atencion(nuevo_horario)
 
 
