@@ -50,15 +50,6 @@ for tienda in tiendas.negocios_mas_de_dos_categorias():
     print(tienda)
 
 
-print(f"mis tiendas{tienda}")
-mas_categoria=ListaTiendas(filter(lambda par:par["tienda"]=="ale",tienda))
-print(f"los que tienen mas de categortias{mas_categoria}")
-
-
-
-
-
-
 
 
 

@@ -27,8 +27,6 @@ aside=left=()
 aside.grid(row=1,column=0,rowspan=7)
 aside.config(width=15,height=385,bg="violet")
 
-etiqueta_usuario=label
-
-
 ventana.mainloop()
+
 
