@@ -22,7 +22,11 @@ class Usuario:
         return f'''informacion del ususario:
         
         {resultado}'''
+<<<<<<< HEAD
 
+=======
+    
+>>>>>>> ff12b58293cf7e99df88dfe581a46c8d4c84ec12
     def agregar_edad(self, clave, valor):
         for usuario in usuarios:
             if usuario['dni'] == self.dni:
