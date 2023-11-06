@@ -78,20 +78,20 @@ EJERCICIO 4
 from tkinter import*
 ventana=Tk()
 ventana.geometry("250x300")
-ventana.title("Papu misterioso")
+ventana.title("hola")
 
 def comprobar_datos():
     text1=text_usuario.get()
     text2=int(text_contra.get())
     if text1 == usuario and text2==contra:
-        mensaje=Label(ventana,text="Vienvenido csmr :)")      
+        mensaje=Label(ventana,text="bienvenido ")      
         mensaje.pack()
     else:
-        mensaje=Label(ventana,text="quien eres csmr")      
+        mensaje=Label(ventana,text="quien eres")      
         mensaje.pack()
 
-usuario="Asta"
-contra=71439102
+usuario="jhoss"
+contra=125
 
 etiqueta1=Label(ventana,text="Introdusca su nombre de usuario")
 etiqueta1.pack()
@@ -106,7 +106,7 @@ etiqueta2.pack()
 text_contra=Entry(ventana)
 text_contra.config(bg="red",fg="white",show="*")
 text_contra.pack()
-boton_capturar=Button(ventana,text="Comprovar",command=comprobar_datos)
+boton_capturar=Button(ventana,text="Comprobar",command=comprobar_datos)
 boton_capturar.pack()
 
 ventana.mainloop()
