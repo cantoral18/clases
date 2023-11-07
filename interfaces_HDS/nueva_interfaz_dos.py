@@ -23,9 +23,5 @@ widget_dos.config(bg="yellow")
 
 
 
-<<<<<<< HEAD
-=======
-
->>>>>>> 91b82f54e00f1f01e5ae537fb4ea4014777b3337
 # usar el metodo  loop para la ventana permanecera abierta
 ventana.mainloop()

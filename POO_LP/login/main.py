@@ -22,11 +22,6 @@ class Usuario:
         return f'''informacion del ususario:
         
         {resultado}'''
-<<<<<<< HEAD
-
-=======
-    
->>>>>>> ff12b58293cf7e99df88dfe581a46c8d4c84ec12
     def agregar_edad(self, clave, valor):
         for usuario in usuarios:
             if usuario['dni'] == self.dni:
@@ -56,7 +51,8 @@ usuario_a_buscar = "jhosi"
 print(actu.verificar_usuario(usuario_a_buscar))
 print(actu.mostrar_usuario(78745625))
 
-usuario_a_validar = "jhoss"
-password_a_validar = "hola"
+usuario_a_validar = "alekey"
+password_a_validar = "1809"
+print(actu.agregar_edad("edad", 24))
 print(actu.validar_usuario_password(usuario_a_validar, password_a_validar))
-print(actu.mostrar_usuario(78745625))
+print(actu.mostrar_usuario(7896547))
