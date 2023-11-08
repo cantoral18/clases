@@ -53,6 +53,5 @@ print(actu.mostrar_usuario(78745625))
 
 usuario_a_validar = "alekey"
 password_a_validar = "1809"
-print(actu.agregar_edad("edad", 24))
 print(actu.validar_usuario_password(usuario_a_validar, password_a_validar))
 print(actu.mostrar_usuario(7896547))
