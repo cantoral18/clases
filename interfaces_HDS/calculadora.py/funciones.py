@@ -33,3 +33,5 @@ def igual(pantalla):
 
 def limpiar(pantalla):
     pantalla.delete(0,END)
+    
+    
