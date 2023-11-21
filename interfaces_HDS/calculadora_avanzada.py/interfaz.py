@@ -1,8 +1,8 @@
 from tkinter import *
 from tkinter import font
-import config as cons
+import confi as cons
 from tkinter import font 
-import config as cons 
+import confi as cons 
 from funciones import *
 
 class InterfazCalculadora(Tk):
